@@ -1,22 +1,26 @@
 # Project API Web Scraping
 
-API Rest Desenvolvido em PHP inicialmente utilizando o framework Laravel alterado para o Lumen. O Lumen é um framework 
-baseado em Laravel no qual seu objetivo é dar suporte no desenvolvimento de API's, por essa simplicidade e sendo um projeto
-objeto mais "limpo" foi escolhido para o sistema de extrações de dados Web Scaraping.
-Abaixo listo algumas informações técnicas da composição do projeto sendo elas mais notáveis.
+A API Web Scaraping foi desenvolvido em PHP utilizando o framework Laravel.
+Sendo um projeto API Rest foi necessária a atualização de seu framework no qual escolhido o **Lumen**.
+<p> O Lumen é um framework baseado em Laravel tendo seu objetivo no desenvolvimento de API's, por esse sentido 
+e composição objetiva foi escolhido para o desenvolvimento deste sistema. </p>
+
+## Composição de projeto
 
 - PHP versão 7.3
-- Versão do framework Laravel 7.29
+- Lumen Framework (7.2.2) (Laravel Components ^7.0)
 - Composer >= 1.6
 - symfony/dom-crawler na versão 5.2 para manipulação DOM (Document Object Model)
-- Apache versão 2 ou Ngnix
+- Apache 2 ou Ngnix
 - É necessário a utilização da extensão XML do PHP na sua respectiva versão
 - MySQL versão 5.7
 
-## Procedimentos
+## Procedimentos para funcionamento
 
-- O composer vai baixar os pacotes necessários para execução do projeto
-- Apache ou Nginx deve ter habilitado a rescrita de URI
+- O composer irá baixar os pacotes necessários para execução do projeto
+- Apache ou Nginx deve estar hábil à rescrita de URI
+- O arquivo `.htaccess.example` é um arquivo de configuração Apache, no qual seu funciomento depende da renomeação para 
+  `.htaccess`
 - Necessário especificar informações no arquivo enviroment .env
   -- No arquivo .env example deve ser renomeado para .env apenas e especificado configurações
   de conexão com o banco de dados
