@@ -3,7 +3,7 @@
 A API Web Scaraping foi desenvolvido em PHP utilizando o framework Laravel.
 Sendo um projeto API Rest foi necessária a atualização de seu framework no qual escolhido o **Lumen**.
 <p> O Lumen é um framework baseado em Laravel tendo seu objetivo no desenvolvimento de API's, por esse sentido 
-e composição objetiva foi escolhido para o desenvolvimento deste sistema. </p>
+e composição foi escolhido para o desenvolvimento deste sistema. </p>
 
 ## Composição de projeto
 
